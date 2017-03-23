@@ -19,16 +19,28 @@
         android:layout_height="wrap_content"
         android:textColor="#FFFF"
         android:textSize="46sp"
+        android:layout_margin="8dp"
         android:text="Lolas Comics & Collectibles" />
+
+    <TextView
+        android:id="@+id/street_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lolas_comics_text"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+        android:layout_marginLeft="8dp"
+        android:text="123 Main Street" />
 
     <TextView
         android:id="@+id/address_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/lolas_comics_text"
+        android:layout_below="@id/street_text"
         android:textColor="#FFFF"
-        android:textSize="16sp"
-        android:text="123 Main Street, San Antonio TX 78210" />
+        android:textSize="20sp"
+        android:layout_marginLeft="8dp"
+        android:text="San Antonio TX 78210"/>
 
     <TextView
         android:id="@+id/phone_text"
@@ -36,15 +48,27 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/address_text"
         android:textColor="#FFFF"
-        android:textSize="16sp"
+        android:textSize="20sp"
+        android:layout_margin="8dp"
         android:text="Phone: 210-123-4567" />
 
     <TextView
+        android:id="@+id/hours_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/phone_text"
         android:textColor="#FFFF"
-        android:textSize="16sp"
+        android:textSize="20sp"
+        android:layout_margin="8dp"
         android:text="Monday - Saturday 10 a.m - 8 p.m." />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hours_text"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+        android:layout_margin="8dp"
+        android:text="We have the largest collection of comic books and collectibles in South Texas. Buy, Sell or Trade! Come See Us Today!"/>
 
 </RelativeLayout>

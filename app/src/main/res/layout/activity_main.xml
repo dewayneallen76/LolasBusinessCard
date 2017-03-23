@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        android:src="@drawable/comics"/>
+        android:src="@drawable/store"/>
 
     <TextView
         android:id="@+id/lolas_comics_text"
@@ -28,6 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/lolas_comics_text"
         android:textColor="#FFFF"
+        android:background="@android:color/background_dark"
         android:textSize="20sp"
         android:layout_marginLeft="8dp"
         android:text="123 Main Street" />
@@ -38,6 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/street_text"
         android:textColor="#FFFF"
+        android:background="@android:color/background_dark"
         android:textSize="20sp"
         android:layout_marginLeft="8dp"
         android:text="San Antonio TX 78210"/>
@@ -48,6 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/address_text"
         android:textColor="#FFFF"
+        android:background="@android:color/background_dark"
         android:textSize="20sp"
         android:layout_margin="8dp"
         android:text="Phone: 210-123-4567" />
@@ -58,6 +61,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/phone_text"
         android:textColor="#FFFF"
+        android:background="@android:color/background_dark"
         android:textSize="20sp"
         android:layout_margin="8dp"
         android:text="Monday - Saturday 10 a.m - 8 p.m." />
@@ -65,8 +69,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/hours_text"
+        android:layout_alignParentBottom="true"
         android:textColor="#FFFF"
+        android:background="@android:color/background_dark"
         android:textSize="20sp"
         android:layout_margin="8dp"
         android:text="We have the largest collection of comic books and collectibles in South Texas. Buy, Sell or Trade! Come See Us Today!"/>

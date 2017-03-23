@@ -25,22 +25,26 @@
         android:id="@+id/address_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/lolas_comics_text"
+        android:layout_below="@id/lolas_comics_text"
         android:textColor="#FFFF"
         android:textSize="16sp"
-        android:text="612 Leigh Street, San Antonio TX 78210" />
+        android:text="123 Main Street, San Antonio TX 78210" />
+
+    <TextView
+        android:id="@+id/phone_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/address_text"
+        android:textColor="#FFFF"
+        android:textSize="16sp"
+        android:text="Phone: 210-123-4567" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/address_text"
+        android:layout_below="@id/phone_text"
         android:textColor="#FFFF"
         android:textSize="16sp"
-        android:text="210-123-12345" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="" />
+        android:text="Monday - Saturday 10 a.m - 8 p.m." />
 
 </RelativeLayout>

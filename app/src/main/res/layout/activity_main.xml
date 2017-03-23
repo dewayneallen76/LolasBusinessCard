@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.android.lolasbusinesscard.MainActivity">
+    tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/comics_image_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        android:src="@drawable/store"/>
+        android:src="@drawable/store" />
 
     <TextView
         android:id="@+id/lolas_comics_text"
@@ -20,7 +20,7 @@
         android:textColor="#FFFF"
         android:textSize="46sp"
         android:layout_margin="8dp"
-        android:text="Lolas Comics & Collectibles" />
+        android:text="Lolas Comics and Collectibles" />
 
     <TextView
         android:id="@+id/street_text"
@@ -69,7 +69,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@id/hours_text"
         android:textColor="#FFFF"
         android:background="@android:color/background_dark"
         android:textSize="20sp"
